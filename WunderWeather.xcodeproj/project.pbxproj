@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE82E8215BD980000C9952E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE82E8115BD980000C9952E /* UIKit.framework */; };
+		5BE82E8415BD980000C9952E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE82E8315BD980000C9952E /* Foundation.framework */; };
+		5BE82E8615BD980000C9952E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE82E8515BD980000C9952E /* CoreGraphics.framework */; };
+		5BE82E8C15BD980000C9952E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BE82E8A15BD980000C9952E /* InfoPlist.strings */; };
+		5BE82E8E15BD980000C9952E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82E8D15BD980000C9952E /* main.m */; };
+		5BE82E9215BD980000C9952E /* CSW_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82E9115BD980000C9952E /* CSW_AppDelegate.m */; };
+		5BE82EAC15BD9A8300C9952E /* CSW_WeatherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82EAB15BD9A8300C9952E /* CSW_WeatherItem.m */; };
+		5BE82EAF15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82EAE15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.m */; };
+		5BE82EB215BD9E2800C9952E /* CSW_WunderWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82EB115BD9E2800C9952E /* CSW_WunderWeatherService.m */; };
+		5BE82EB915BDA00200C9952E /* CSW_WeatherItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82EB415BDA00200C9952E /* CSW_WeatherItemCell.m */; };
+		5BE82EBA15BDA00200C9952E /* CSW_WeatherItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE82EB515BDA00200C9952E /* CSW_WeatherItemCell.xib */; };
+		5BE82EBB15BDA00200C9952E /* CSW_WeatherListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE82EB715BDA00200C9952E /* CSW_WeatherListViewController.m */; };
+		5BE82EBC15BDA00200C9952E /* CSW_WeatherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE82EB815BDA00200C9952E /* CSW_WeatherListViewController.xib */; };
+		7201A0FBFBCA47419EC495C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC40008C2C714893BB633A36 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BE82E7D15BD980000C9952E /* WunderWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE82E8115BD980000C9952E /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BE82E8315BD980000C9952E /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BE82E8515BD980000C9952E /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BE82E8915BD980000C9952E /* WunderWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WunderWeather-Info.plist"; sourceTree = "<group>"; };
+		5BE82E8B15BD980000C9952E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BE82E8D15BD980000C9952E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE82E8F15BD980000C9952E /* WunderWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WunderWeather-Prefix.pch"; sourceTree = "<group>"; };
+		5BE82E9015BD980000C9952E /* CSW_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSW_AppDelegate.h; sourceTree = "<group>"; };
+		5BE82E9115BD980000C9952E /* CSW_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSW_AppDelegate.m; sourceTree = "<group>"; };
+		5BE82EAA15BD9A8300C9952E /* CSW_WeatherItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSW_WeatherItem.h; sourceTree = "<group>"; };
+		5BE82EAB15BD9A8300C9952E /* CSW_WeatherItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSW_WeatherItem.m; sourceTree = "<group>"; };
+		5BE82EAD15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSW_WunderWeatherHTTPClient.h; sourceTree = "<group>"; };
+		5BE82EAE15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSW_WunderWeatherHTTPClient.m; sourceTree = "<group>"; };
+		5BE82EB015BD9E2800C9952E /* CSW_WunderWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSW_WunderWeatherService.h; sourceTree = "<group>"; };
+		5BE82EB115BD9E2800C9952E /* CSW_WunderWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSW_WunderWeatherService.m; sourceTree = "<group>"; };
+		5BE82EB315BDA00200C9952E /* CSW_WeatherItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CSW_WeatherItemCell.h; sourceTree = "<group>"; };
+		5BE82EB415BDA00200C9952E /* CSW_WeatherItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSW_WeatherItemCell.m; sourceTree = "<group>"; };
+		5BE82EB515BDA00200C9952E /* CSW_WeatherItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSW_WeatherItemCell.xib; sourceTree = "<group>"; };
+		5BE82EB615BDA00200C9952E /* CSW_WeatherListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CSW_WeatherListViewController.h; sourceTree = "<group>"; };
+		5BE82EB715BDA00200C9952E /* CSW_WeatherListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSW_WeatherListViewController.m; sourceTree = "<group>"; };
+		5BE82EB815BDA00200C9952E /* CSW_WeatherListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSW_WeatherListViewController.xib; sourceTree = "<group>"; };
+		878879DA5CC848F0A23E4605 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		CC40008C2C714893BB633A36 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE82E7A15BD980000C9952E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE82E8215BD980000C9952E /* UIKit.framework in Frameworks */,
+				5BE82E8415BD980000C9952E /* Foundation.framework in Frameworks */,
+				5BE82E8615BD980000C9952E /* CoreGraphics.framework in Frameworks */,
+				7201A0FBFBCA47419EC495C8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE82E7215BD980000C9952E = {
+			isa = PBXGroup;
+			children = (
+				5BE82E8715BD980000C9952E /* WunderWeather */,
+				5BE82E8015BD980000C9952E /* Frameworks */,
+				5BE82E7E15BD980000C9952E /* Products */,
+				878879DA5CC848F0A23E4605 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE82E7E15BD980000C9952E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82E7D15BD980000C9952E /* WunderWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE82E8015BD980000C9952E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82E8115BD980000C9952E /* UIKit.framework */,
+				5BE82E8315BD980000C9952E /* Foundation.framework */,
+				5BE82E8515BD980000C9952E /* CoreGraphics.framework */,
+				CC40008C2C714893BB633A36 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE82E8715BD980000C9952E /* WunderWeather */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82EA815BD9A3900C9952E /* ViewController */,
+				5BE82EA715BD9A3900C9952E /* Model */,
+				5BE82EA615BD9A3900C9952E /* API */,
+				5BE82E9015BD980000C9952E /* CSW_AppDelegate.h */,
+				5BE82E9115BD980000C9952E /* CSW_AppDelegate.m */,
+				5BE82E8815BD980000C9952E /* Supporting Files */,
+			);
+			path = WunderWeather;
+			sourceTree = "<group>";
+		};
+		5BE82E8815BD980000C9952E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82E8915BD980000C9952E /* WunderWeather-Info.plist */,
+				5BE82E8A15BD980000C9952E /* InfoPlist.strings */,
+				5BE82E8D15BD980000C9952E /* main.m */,
+				5BE82E8F15BD980000C9952E /* WunderWeather-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BE82EA615BD9A3900C9952E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82EAD15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.h */,
+				5BE82EAE15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.m */,
+				5BE82EB015BD9E2800C9952E /* CSW_WunderWeatherService.h */,
+				5BE82EB115BD9E2800C9952E /* CSW_WunderWeatherService.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5BE82EA715BD9A3900C9952E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82EAA15BD9A8300C9952E /* CSW_WeatherItem.h */,
+				5BE82EAB15BD9A8300C9952E /* CSW_WeatherItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BE82EA815BD9A3900C9952E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BE82EB315BDA00200C9952E /* CSW_WeatherItemCell.h */,
+				5BE82EB415BDA00200C9952E /* CSW_WeatherItemCell.m */,
+				5BE82EB515BDA00200C9952E /* CSW_WeatherItemCell.xib */,
+				5BE82EB615BDA00200C9952E /* CSW_WeatherListViewController.h */,
+				5BE82EB715BDA00200C9952E /* CSW_WeatherListViewController.m */,
+				5BE82EB815BDA00200C9952E /* CSW_WeatherListViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE82E7C15BD980000C9952E /* WunderWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE82E9515BD980000C9952E /* Build configuration list for PBXNativeTarget "WunderWeather" */;
+			buildPhases = (
+				5BE82E7915BD980000C9952E /* Sources */,
+				5BE82E7A15BD980000C9952E /* Frameworks */,
+				5BE82E7B15BD980000C9952E /* Resources */,
+				E09FC02E363E449289A5A08F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WunderWeather;
+			productName = WunderWeather;
+			productReference = 5BE82E7D15BD980000C9952E /* WunderWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE82E7415BD980000C9952E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CSW_;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5BE82E7715BD980000C9952E /* Build configuration list for PBXProject "WunderWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BE82E7215BD980000C9952E;
+			productRefGroup = 5BE82E7E15BD980000C9952E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE82E7C15BD980000C9952E /* WunderWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE82E7B15BD980000C9952E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE82E8C15BD980000C9952E /* InfoPlist.strings in Resources */,
+				5BE82EBA15BDA00200C9952E /* CSW_WeatherItemCell.xib in Resources */,
+				5BE82EBC15BDA00200C9952E /* CSW_WeatherListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E09FC02E363E449289A5A08F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE82E7915BD980000C9952E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE82E8E15BD980000C9952E /* main.m in Sources */,
+				5BE82E9215BD980000C9952E /* CSW_AppDelegate.m in Sources */,
+				5BE82EAC15BD9A8300C9952E /* CSW_WeatherItem.m in Sources */,
+				5BE82EAF15BD9CED00C9952E /* CSW_WunderWeatherHTTPClient.m in Sources */,
+				5BE82EB215BD9E2800C9952E /* CSW_WunderWeatherService.m in Sources */,
+				5BE82EB915BDA00200C9952E /* CSW_WeatherItemCell.m in Sources */,
+				5BE82EBB15BDA00200C9952E /* CSW_WeatherListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BE82E8A15BD980000C9952E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE82E8B15BD980000C9952E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE82E9315BD980000C9952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BE82E9415BD980000C9952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE82E9615BD980000C9952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878879DA5CC848F0A23E4605 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WunderWeather/WunderWeather-Prefix.pch";
+				INFOPLIST_FILE = "WunderWeather/WunderWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BE82E9715BD980000C9952E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878879DA5CC848F0A23E4605 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WunderWeather/WunderWeather-Prefix.pch";
+				INFOPLIST_FILE = "WunderWeather/WunderWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE82E7715BD980000C9952E /* Build configuration list for PBXProject "WunderWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE82E9315BD980000C9952E /* Debug */,
+				5BE82E9415BD980000C9952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE82E9515BD980000C9952E /* Build configuration list for PBXNativeTarget "WunderWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE82E9615BD980000C9952E /* Debug */,
+				5BE82E9715BD980000C9952E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BE82E7415BD980000C9952E /* Project object */;
+}
