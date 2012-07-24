@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/stevenpsmith/WunderWeatherService"
   s.license      = 'MIT'
   s.author       = { "stevenpsmith" => "ssmith@chariotsolutions.com" }
-  s.source       = { :git => "https://github.com/stevenpsmith/WunderWeatherService.git", :tag => 'v0.0.1' }
+  s.source       = { :git => "https://github.com/stevenpsmith/WunderWeatherService.git", :tag => 'v0.0.2' }
   s.platform     = :ios, '5.1'
   s.source_files = 'WunderWeather/API/*.{h,m}', 'WunderWeather/Model/*.{h,m}', 'WunderWeather/ViewController/*.{h,m}'
   s.resources = "WunderWeather/ViewController/*.{xib}"
