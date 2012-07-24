@@ -49,6 +49,7 @@
     [descr appendString:[NSString stringWithFormat:@"\rweatherText: %@", [self weatherText]]];
     [descr appendString:[NSString stringWithFormat:@"\rhigh: %@", [self highTemp]]];
     [descr appendString:[NSString stringWithFormat:@"\rlow: %@", [self lowTemp]]];
+    [descr appendString:[NSString stringWithFormat:@"\riconURL: %@", [[self iconURL] path]]];
     return [NSString stringWithString:descr];
 }
 
@@ -57,6 +58,7 @@
     [self setWeatherText:nil];
     [self setHighTemp:nil];
     [self setLowTemp:nil];
+    [self setIconURL:nil];
 }
 
 
