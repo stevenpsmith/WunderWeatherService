@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'WunderWeather/API/*.{h,m}', 'WunderWeather/Model/*.{h,m}', 'WunderWeather/ViewController/*.{h,m}'
   s.resources = "WunderWeather/ViewController/*.{xib}"
   s.requires_arc = true
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~> 0.10.0'
 end
